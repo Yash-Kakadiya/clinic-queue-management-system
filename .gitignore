@@ -1,0 +1,71 @@
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment
+*.local
+.env
+.env.*
+
+# Editor / IDE
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+.eslintcache
+*.tsbuildinfo
+
+# Copilot / AI / Chats
+.copilot/
+.github/copilot/
+*.copilot
+*.chat
+*.prompt
+*.ai
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+
+# Binary files
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Misc
+*.lock
